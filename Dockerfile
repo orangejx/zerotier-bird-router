@@ -1,9 +1,9 @@
 # Download, build and install a Zerotier client and BIRD BGP routing daemon
 # Credit for Zerotier client: https://github.com/zyclonite/zerotier-docker
 
-ARG ALPINE_VERSION=latest
-ARG BIRD_VERSION=2.14
-ARG ZEROTIER_VERSION=1.12.2
+ARG ALPINE_VERSION=3.20.3
+ARG BIRD_VERSION=2.15.1
+ARG ZEROTIER_VERSION=1.14.0
 
 FROM alpine:${ALPINE_VERSION} AS builder
 
